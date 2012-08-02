@@ -32,3 +32,14 @@ The follwoing methods are available:
 # Get current CPU usage
 
 	os.getCPU() 
+	
+	
+	
+
+# Get current CPU usage
+
+## Get current CPU usage
+
+### Get current CPU usage
+
+* Get current CPU usage
