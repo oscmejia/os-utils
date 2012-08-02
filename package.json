@@ -1,6 +1,6 @@
 {
   "name"			: "os-utils",
-  "version"			: "0.0.5",
+  "version"			: "0.0.6",
   "description"		: "an operating-system utility library",
   "url"           	: "http://oscar-mejia.com",
   "main"			: "./lib/osutils.js",
@@ -15,7 +15,9 @@
 						"operating system",
 						"server",
 						"memory",
-						"cpu"
+						"cpu",
+						"monitor",
+						"stats"
   						], 
   "author"			: {
 						"name": "Oscar Mejia",

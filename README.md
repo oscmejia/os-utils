@@ -19,27 +19,19 @@ Then in your code
 
 The follwoing methods are available:
 
-# Get current memory usage
+### Get current memory usage
 
 	os.getMemory();
 
 
-# Get number of CPU
+### Get number of CPU
 
 	os.countCPUs() 
 	
 	
-# Get current CPU usage
+### Get current CPU usage
 
 	os.getCPU() 
 	
 	
 	
-
-# Get current CPU usage
-
-## Get current CPU usage
-
-### Get current CPU usage
-
-* Get current CPU usage
