@@ -30,14 +30,14 @@ os.cpuFree(function(v){
 The follwoing methods are available:
 
 
-### Calculate CPU usage in the next second. This is not an average of CPU usage like in the "os" module.
+### Calculate CPU usage in the next second. This is not an average of CPU usage like in the "os" module. The callback will receive a parameter with the value
 
-	os.cpuUsage();
+	os.cpuUsage( callback );
 	
 
-### Calculate free CPU in the next second. This is not based on average CPU usage like in the "os" module.
+### Calculate free CPU in the next second. This is not based on average CPU usage like in the "os" module. The callback will receive a parameter with the value
 
-	os.cpuFree();
+	os.cpuFree( callback );
 
 	
 ### Get the platform name

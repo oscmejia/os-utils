@@ -1,6 +1,6 @@
 {
   "name"			: "os-utils",
-  "version"			: "0.0.8",
+  "version"			: "0.0.9",
   "description"		: "an operating-system utility library",
   "url"           	: "http://oscar-mejia.com",
   "main"			: "./lib/osutils.js",
