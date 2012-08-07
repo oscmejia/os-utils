@@ -1,6 +1,6 @@
 {
   "name"			: "os-utils",
-  "version"			: "0.0.6",
+  "version"			: "0.0.8",
   "description"		: "an operating-system utility library",
   "url"           	: "http://oscar-mejia.com",
   "main"			: "./lib/osutils.js",
@@ -23,5 +23,5 @@
 						"name": "Oscar Mejia",
 						"email": "oscmejia@vovsolutions.com"
   					  },
-  "license"			: "BSD"
+  "license"			: "MIT"
 }
