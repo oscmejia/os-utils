@@ -47,7 +47,7 @@ The follwoing methods are available:
 
 ### Get number of CPU
 
-	os.countCPUs()
+	os.cpuCount()
 
 
 ### Get current free memory
