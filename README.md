@@ -1,13 +1,13 @@
 os-utils
 ========
 
-an operating-system utility library. Some methods are wrappers of Node libraries
-and others are calculation made by the module.
+An operating system utility library. Some methods are wrappers of node libraries
+and others are calculations made by the module.
 
 
-## Instalation
+## Installation
 
-One line instaltion with [npm](http://npmjs.org). 
+One line installation with [npm](http://npmjs.org). 
 
 	npm install os-utils
 
@@ -23,21 +23,21 @@ Then in your code
 	os.cpuFree(function(v){
 
 
-
-
 ## Usage
 
-The follwoing methods are available:
+The following methods are available:
 
 
-### Calculate CPU usage in the next second. This is not an average of CPU usage like in the "os" module. The callback will receive a parameter with the value
+### Calculate CPU usage for the next second
+This is not an average of CPU usage like it is in the "os" module. The callback will receive a parameter with the value.
 
-	os.cpuUsage( callback );
+	os.cpuUsage( function(value) { /* ... */ } );
 	
 
-### Calculate free CPU in the next second. This is not based on average CPU usage like in the "os" module. The callback will receive a parameter with the value
+### Calculate free CPU for the next second
+This is not based on average CPU usage like it is in the "os" module. The callback will receive a parameter with the value.
 
-	os.cpuFree( callback );
+	os.cpuFree( function(value) { /* ... */ } );
 
 	
 ### Get the platform name
@@ -45,7 +45,7 @@ The follwoing methods are available:
 	os.platform();
 
 
-### Get number of CPU
+### Get number of CPUs
 
 	os.countCPUs()
 
@@ -60,24 +60,23 @@ The follwoing methods are available:
 	os.totalmem()
 
 
-### Get a percentage reporesentinf the free memory
+### Get a current free memory percentage
 
 	os.freememPercentage()
 
 
-### Get the number of miliseconds that the system has been running for.
+### Get the number of miliseconds the system has been running for
 
 	os.sysUptime();
 	
 	
-### Get the number of miliseconds that the process has been running for.
+### Get the number of miliseconds the process has been running
 
 	os.processUptime() 
 
 
-### Get average load for the 1, 5 or 15 minutes
+### Get average load for 1, 5 or 15 minutes
 
 	os.loadavg(1)
 	os.loadavg(5)
 	os.loadavg(15)
-	
