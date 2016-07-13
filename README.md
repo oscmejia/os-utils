@@ -45,9 +45,9 @@ The follwoing methods are available:
 	os.platform();
 
 
-### Get number of CPU
+### Get number of CPUs
 
-	os.countCPUs()
+	os.cpuCount()
 
 
 ### Get current free memory
