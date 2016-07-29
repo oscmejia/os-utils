@@ -89,9 +89,9 @@ os.harddrive( 'partition', callback )
 // Example
 os.harddrive('sd3', function(total, free, used, err) {
     if(!err) {
-        console.log('Total  : '+total+');
-        console.log('Free   : '+total+');
-        console.log('Used   : '+used+');
+        console.log('Total  : '+total);
+        console.log('Free   : '+total);
+        console.log('Used   : '+used);
     } else {
         console.log('Cannot find disk');
     }
