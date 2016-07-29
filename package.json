@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "os-utils",
   "version": "0.0.14",
   "description": "an operating-system utility library",
@@ -59,4 +60,32 @@
   },
   "readme": "ERROR: No README data found!",
   "homepage": "https://github.com/oscmejia/os-utils#readme"
+=======
+  "name"			: "os-utils",
+  "version"			: "0.0.14",
+  "description"		: "an operating-system utility library",
+  "url"           	: "http://oscar-mejia.com",
+  "main"			: "./lib/osutils.js",
+  "directories"   	: { "test": "./test"},
+
+  "repository"		: {
+						"type": "git",
+						"url": "https://github.com/oscmejia/os-utils"
+  					  },
+  "keywords"		: [
+						"os",
+						"operating system",
+						"server",
+						"memory",
+						"cpu",
+						"monitor",
+						"stats",
+						"harddrive"
+  						], 
+  "author"			: {
+						"name": "Oscar Mejia",
+						"email": "oscmejia@vovsolutions.com"
+  					  },
+  "license"			: "MIT"
+>>>>>>> 62ed843bcd4e11579efecb5d5a5b1f6536f116ca
 }
