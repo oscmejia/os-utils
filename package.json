@@ -7,22 +7,22 @@
   "directories"   	: { "test": "./test"},
 
   "repository"		: {
-						"type": "git",
-						"url": "https://github.com/oscmejia/os-utils"
-  					  },
+    "type": "git",
+    "url": "https://github.com/oscmejia/os-utils"
+  },
   "keywords"		: [
-						"os",
-						"operating system",
-						"server",
-						"memory",
-						"cpu",
-						"monitor",
-						"stats",
-						"harddrive"
-  						], 
+    "os",
+    "operating system",
+    "server",
+    "memory",
+    "cpu",
+    "monitor",
+    "stats",
+    "harddrive"
+  ],
   "author"			: {
-						"name": "Oscar Mejia",
-						"email": "oscmejia@vovsolutions.com"
-  					  },
+    "name": "Oscar Mejia",
+    "email": "oscmejia@vovsolutions.com"
+  },
   "license"			: "MIT"
 }

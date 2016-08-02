@@ -1,13 +1,13 @@
 os-utils
 ========
 
-An operating system utility library. Some methods are wrappers of node libraries
-and others are calculations made by the module.
+an operating-system utility library. Some methods are wrappers of Node libraries
+and others are calculation made by the module.
 
 
-## Installation
+## Instalation
 
-One line installation with [npm](http://npmjs.org). 
+One line instaltion with [npm](http://npmjs.org). 
 
 	npm install os-utils
 
@@ -23,21 +23,21 @@ Then in your code
 	os.cpuFree(function(v){
 
 
+
+
 ## Usage
 
-The following methods are available:
+The follwoing methods are available:
 
 
-### Calculate CPU usage for the next second
-This is not an average of CPU usage like it is in the "os" module. The callback will receive a parameter with the value.
+### Calculate CPU usage in the next second. This is not an average of CPU usage like in the "os" module. The callback will receive a parameter with the value
 
-	os.cpuUsage( function(value) { /* ... */ } );
+	os.cpuUsage( callback );
 	
 
-### Calculate free CPU for the next second
-This is not based on average CPU usage like it is in the "os" module. The callback will receive a parameter with the value.
+### Calculate free CPU in the next second. This is not based on average CPU usage like in the "os" module. The callback will receive a parameter with the value
 
-	os.cpuFree( function(value) { /* ... */ } );
+	os.cpuFree( callback );
 
 	
 ### Get the platform name
@@ -45,9 +45,9 @@ This is not based on average CPU usage like it is in the "os" module. The callba
 	os.platform();
 
 
-### Get number of CPUs
+### Get number of CPU
 
-	os.cpuCount()
+	os.countCPUs()
 
 
 ### Get current free memory
@@ -60,23 +60,40 @@ This is not based on average CPU usage like it is in the "os" module. The callba
 	os.totalmem()
 
 
-### Get a current free memory percentage
+### Get a percentage reporesentinf the free memory
 
 	os.freememPercentage()
 
 
-### Get the number of miliseconds the system has been running for
+### Get the number of miliseconds that the system has been running for.
 
 	os.sysUptime();
 	
 	
-### Get the number of miliseconds the process has been running
+### Get the number of miliseconds that the process has been running for.
 
 	os.processUptime() 
 
 
-### Get average load for 1, 5 or 15 minutes
+### Get average load for the 1, 5 or 15 minutes
 
 	os.loadavg(1)
 	os.loadavg(5)
 	os.loadavg(15)
+	
+### Get disk usage (per partition)
+
+```javascript
+os.harddrive( 'partition', callback )
+    
+// Example
+os.harddrive('sd3', function(total, free, used, err) {
+    if(!err) {
+        console.log('Total  : '+total);
+        console.log('Free   : '+total);
+        console.log('Used   : '+used);
+    } else {
+        console.log('Cannot find disk');
+    }
+});    
+```
