@@ -76,13 +76,13 @@ os.freememPercentage()
 ```
 
 
-### Get the number of miliseconds the system has been running for
+### Get the number of seconds the system has been running for
 ```js
 os.sysUptime();
 ```
 	
 	
-### Get the number of miliseconds the process has been running
+### Get the number of seconds the process has been running
 ```js
 os.processUptime() 
 ```
