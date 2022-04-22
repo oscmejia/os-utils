@@ -21,9 +21,12 @@ console.log(`Load Usage (%): ${os.loadAverage()}`);
 console.log(`Load Usage 1 (%): ${os.loadAverage(1)}`);
 console.log(`Load Usage 5 (%): ${os.loadAverage(5)}`);
 console.log(`Load Usage 15 (%): ${os.loadAverage(15)}`);
+console.log(`All Load Usage (%): ${os.allLoadAverage()}`);
 console.log('\n');
 
 os.cpuUsage().then((v) => console.log(`CPU Usage (%): ${v}`));
 os.freeCpuUsage().then((v) => console.log(`CPU Free (%): ${v}`));
+
+os.freeCommand((v) => {});
 
 console.log('\n');
