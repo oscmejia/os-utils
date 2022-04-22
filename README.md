@@ -1,4 +1,4 @@
-os-utils (EntenKoeniq version)
+os-utils
 ========
 
 An operating system utility library. Some methods are wrappers of node libraries
@@ -7,7 +7,7 @@ and others are calculations made by the module.
 
 ## Installation
 
-One line installation with [npm](http://npmjs.org). **This is not that version!!**
+One line installation with [npm](http://npmjs.org).
 ```bash
 npm install os-utils
 ```
